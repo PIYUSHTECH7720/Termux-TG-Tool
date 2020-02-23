@@ -67,4 +67,4 @@ with open("member.csv","w",encoding='UTF-8') as f:
             last_name= ""
         name= (first_name + ' ' + last_name).strip()
         writer.writerow([username,user.id,user.access_hash,name,target_group.title, target_group.id])      
-print('Gandu Members scrape ho gaye hai. By @Wrong_User_Name')
+print('MEMBERS SCRAPING DONE @PIYUSHTECH12')
